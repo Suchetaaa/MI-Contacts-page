@@ -1,52 +1,72 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <LinearLayout android:layout_width="match_parent"
-     android:layout_height="wrap_content"
+    android:layout_height="wrap_content"
     android:orientation="vertical"
+    android:background="@drawable/contactsbg"
     xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+    <TextView
         android:layout_width="match_parent"
-         android:layout_height="wrap_content"
-        android:text="CONTACT US"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="40dp"
+        android:text="@string/contact_us"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
         android:textAlignment="center" />
     <TextView
         android:layout_width="match_parent"
-         android:layout_height="wrap_content"
-        
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="6dp"
         android:textAlignment="center"
-        android:text="Accomodations &amp; Public Relations" />
+        android:text="Accomodation & Public Relations"
+        android:textColor="#d6d8eb"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+
     <LinearLayout
         android:layout_width="match_parent"
-         android:layout_height="wrap_content"
+        android:layout_height="wrap_content"
         android:orientation="horizontal">
         <TextView
-             android:layout_height="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_width="wrap_content"
             android:layout_weight="1"
             android:text="Bhavishya Rathore"
-            android:textAlignment="center"/>
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"/>
         <TextView
-             android:layout_height="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_width="wrap_content"
             android:layout_weight="1"
             android:text="Rajat Kumar"
-            android:textAlignment="center"/>
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
-         android:layout_height="wrap_content"
+        android:layout_height="wrap_content"
         android:orientation="horizontal">
         <TextView
-              android:layout_height="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_width="wrap_content"
             android:layout_weight="1"
+            android:textColor="#FFFFFF"
             android:text="bhavishya@moodi.org"
             android:onClick="sendemail"
             android:textAlignment="center"/>
         <TextView
-             android:layout_height="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_width="wrap_content"
-            
+            android:textColor="#FFFFFF"
             android:layout_weight="1"
             android:text="rajat@moodi.org"
             android:onClick="sendemail"
@@ -54,20 +74,20 @@
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
-         android:layout_height="wrap_content"
+        android:layout_height="wrap_content"
         android:orientation="horizontal">
         <TextView
-             android:layout_height="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_width="wrap_content"
-            
+            android:textColor="#FFFFFF"
             android:layout_weight="1"
             android:text="+91-8770870693"
             android:onClick="call"
             android:textAlignment="center"/>
         <TextView
-             android:layout_height="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_width="wrap_content"
-            
+            android:textColor="#FFFFFF"
             android:layout_weight="1"
             android:text="+91-8860574839"
             android:onClick="call"
@@ -75,65 +95,72 @@
     </LinearLayout>
     <TextView
         android:layout_width="match_parent"
-         android:layout_height="wrap_content"
-        
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="6dp"
         android:textAlignment="center"
-        android:text="Competitions and LYP" />
+        android:text="Competitions & LYP"
+        android:textColor="#d6d8eb"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
     <LinearLayout
         android:layout_width="match_parent"
-         android:layout_height="wrap_content"
+        android:layout_height="wrap_content"
         android:orientation="horizontal">
         <TextView
-             android:layout_height="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_width="wrap_content"
-            
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
             android:layout_weight="1"
             android:text="Ajay Suwalka"
             android:textAlignment="center"/>
         <TextView
-             android:layout_height="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_width="wrap_content"
-            
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
             android:layout_weight="1"
             android:text="Unnishankar Jayaprakash"
             android:textAlignment="center"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
-         android:layout_height="wrap_content"
+        android:layout_height="wrap_content"
         android:orientation="horizontal">
         <TextView
-             android:layout_height="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_width="wrap_content"
-            
+            android:textColor="#FFFFFF"
             android:layout_weight="1"
             android:text="ajay@moodi.org"
             android:onClick="sendemail"
             android:textAlignment="center"/>
         <TextView
-             android:layout_height="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_width="wrap_content"
             android:layout_weight="1"
             android:text="unni@moodi.org"
+            android:textColor="#FFFFFF"
             android:onClick="sendemail"
             android:textAlignment="center"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
-         android:layout_height="wrap_content"
+        android:layout_height="wrap_content"
         android:orientation="horizontal">
         <TextView
-             android:layout_height="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_width="wrap_content"
-            
+            android:textColor="#FFFFFF"
             android:layout_weight="1"
             android:text="+91-8828292009"
             android:onClick="call"
             android:textAlignment="center"/>
         <TextView
-             android:layout_height="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_width="wrap_content"
-            
+            android:textColor="#FFFFFF"
             android:layout_weight="1"
             android:text="+91-9594567827"
             android:onClick="call"
@@ -141,45 +168,51 @@
     </LinearLayout>
     <TextView
         android:layout_width="match_parent"
-         android:layout_height="wrap_content"
-        
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="6dp"
         android:textAlignment="center"
-        android:text="CREATIVES" />
+        android:text="Creatives"
+        android:textColor="#d6d8eb"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
     <LinearLayout
         android:layout_width="match_parent"
-         android:layout_height="wrap_content"
+        android:layout_height="wrap_content"
         android:orientation="horizontal">
         <TextView
-             android:layout_height="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_width="wrap_content"
-            
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
             android:layout_weight="1"
             android:text="Bakhsh Mangat"
             android:textAlignment="center"/>
         <TextView
-             android:layout_height="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_width="wrap_content"
-            
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
             android:layout_weight="1"
             android:text="Darshan Tank"
             android:textAlignment="center"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
-         android:layout_height="wrap_content"
+        android:layout_height="wrap_content"
         android:orientation="horizontal">
         <TextView
-             android:layout_height="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_width="wrap_content"
-            
+            android:textColor="#FFFFFF"
             android:layout_weight="1"
             android:text="bakhsh@moodi.org"
             android:onClick="sendemail"
             android:textAlignment="center"/>
         <TextView
-             android:layout_height="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_width="wrap_content"
-            
+            android:textColor="#FFFFFF"
             android:layout_weight="1"
             android:text="darshan@moodi.org"
             android:onClick="sendemail"
@@ -187,20 +220,20 @@
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
-         android:layout_height="wrap_content"
+        android:layout_height="wrap_content"
         android:orientation="horizontal">
         <TextView
-             android:layout_height="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_width="wrap_content"
-            
+            android:textColor="#FFFFFF"
             android:layout_weight="1"
             android:text="+91-8879135156"
             android:onClick="call"
             android:textAlignment="center"/>
         <TextView
-             android:layout_height="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_width="wrap_content"
-            
+            android:textColor="#FFFFFF"
             android:layout_weight="1"
             android:text="+91-9969575065"
             android:onClick="call"
@@ -208,116 +241,140 @@
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
-         android:layout_height="wrap_content"
+        android:layout_height="wrap_content"
         android:orientation="vertical">
         <TextView
             android:layout_width="match_parent"
-             android:layout_height="wrap_content"
+            android:layout_height="wrap_content"
             android:text="Manit Rambhia"
-            android:textAlignment="center"/>
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"/>
         <TextView
             android:layout_width="match_parent"
-             android:layout_height="wrap_content"
+            android:layout_height="wrap_content"
             android:text="manit@moodi.org"
             android:onClick="sendemail"
-            android:textAlignment="center"/>
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"/>
         <TextView
             android:layout_width="match_parent"
-             android:layout_height="wrap_content"
+            android:layout_height="wrap_content"
             android:text="+91-9619120821"
             android:onClick="call"
+            android:textColor="#FFFFFF"
             android:textAlignment="center"/>
     </LinearLayout>
     <TextView
         android:layout_width="match_parent"
-         android:layout_height="wrap_content"
-        
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="6dp"
         android:textAlignment="center"
-        android:text="FOOD &amp; BEVERAGES" />
+        android:text="Food & Beverages"
+        android:textColor="#d6d8eb"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
     <LinearLayout
         android:layout_width="match_parent"
-         android:layout_height="wrap_content"
+        android:layout_height="wrap_content"
         android:orientation="vertical">
         <TextView
             android:layout_width="match_parent"
-             android:layout_height="wrap_content"
+            android:layout_height="wrap_content"
             android:text="Shreyansh Mehta"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
             android:textAlignment="center"/>
         <TextView
             android:layout_width="match_parent"
-             android:layout_height="wrap_content"
+            android:layout_height="wrap_content"
             android:text="shreyansh@moodi.org"
             android:onClick="sendemail"
+            android:textColor="#FFFFFF"
             android:textAlignment="center"/>
         <TextView
             android:layout_width="match_parent"
-             android:layout_height="wrap_content"
+            android:layout_height="wrap_content"
             android:text="+91-7045800361"
             android:onClick="call"
+            android:textColor="#FFFFFF"
             android:textAlignment="center"/>
     </LinearLayout>
     <TextView
         android:layout_width="match_parent"
-         android:layout_height="wrap_content"
-        
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="6dp"
         android:textAlignment="center"
-        android:text="HORIZONS &amp; WORKSHOPS" />
+        android:text="Horizons &amp; Workshops"
+        android:textColor="#d6d8eb"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+
+
     <LinearLayout
         android:layout_width="match_parent"
-         android:layout_height="wrap_content"
+        android:layout_height="wrap_content"
         android:orientation="horizontal">
         <TextView
-             android:layout_height="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_width="wrap_content"
-            
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
             android:layout_weight="1"
             android:text="Anant Jain"
             android:textAlignment="center"/>
         <TextView
-             android:layout_height="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_width="wrap_content"
-            
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
             android:layout_weight="1"
             android:text="Deepshikha Meena"
             android:textAlignment="center"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
-         android:layout_height="wrap_content"
+        android:layout_height="wrap_content"
         android:orientation="horizontal">
+
         <TextView
-             android:layout_height="wrap_content"
             android:layout_width="wrap_content"
-            
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
             android:layout_weight="1"
+            android:onClick="sendemail"
             android:text="anant@moodi.org"
-            android:onClick="sendemail"
-            android:textAlignment="center"/>
+            android:textAlignment="center" />
+
         <TextView
-             android:layout_height="wrap_content"
             android:layout_width="wrap_content"
-            
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
             android:layout_weight="1"
-            android:text="deepshikha@moodi.org"
             android:onClick="sendemail"
-            android:textAlignment="center"/>
+            android:text="deepshikha@moodi.org"
+            android:textAlignment="center" />
     </LinearLayout>
+
+
     <LinearLayout
         android:layout_width="match_parent"
-         android:layout_height="wrap_content"
+        android:layout_height="wrap_content"
         android:orientation="horizontal">
         <TextView
-             android:layout_height="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_width="wrap_content"
-            
+            android:textColor="#FFFFFF"
             android:layout_weight="1"
             android:text="+91-7045800195"
             android:onClick="call"
             android:textAlignment="center"/>
         <TextView
-             android:layout_height="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_width="wrap_content"
-            
+            android:textColor="#FFFFFF"
             android:layout_weight="1"
             android:text="+91-8828234577"
             android:onClick="call"
@@ -325,67 +382,77 @@
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
-         android:layout_height="wrap_content"
+        android:layout_height="wrap_content"
         android:orientation="vertical">
         <TextView
             android:layout_width="match_parent"
-             android:layout_height="wrap_content"
+            android:layout_height="wrap_content"
             android:text="Siddhant Jain"
-            android:textAlignment="center"/>
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"/>
         <TextView
             android:layout_width="match_parent"
-             android:layout_height="wrap_content"
+            android:layout_height="wrap_content"
             android:text="siddhant@moodi.org"
             android:onClick="sendemail"
-            android:textAlignment="center"/>
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"/>
         <TextView
             android:layout_width="match_parent"
-             android:layout_height="wrap_content"
+            android:layout_height="wrap_content"
             android:text="+91-8879154549"
             android:onClick="call"
-            android:textAlignment="center"/>
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"/>
     </LinearLayout>
     <TextView
         android:layout_width="match_parent"
-         android:layout_height="wrap_content"
-        
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="6dp"
         android:textAlignment="center"
-        android:text="INFORMALS" />
+        android:text="Informals"
+        android:textColor="#d6d8eb"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
     <LinearLayout
         android:layout_width="match_parent"
-         android:layout_height="wrap_content"
+        android:layout_height="wrap_content"
         android:orientation="horizontal">
         <TextView
-             android:layout_height="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_width="wrap_content"
-            
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
             android:layout_weight="1"
             android:text="Katyayani Shinde"
             android:textAlignment="center"/>
         <TextView
-             android:layout_height="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_width="wrap_content"
-            
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
             android:layout_weight="1"
             android:text="Shashank Shekhar"
             android:textAlignment="center"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
-         android:layout_height="wrap_content"
+        android:layout_height="wrap_content"
         android:orientation="horizontal">
         <TextView
-             android:layout_height="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_width="wrap_content"
-            
+            android:textColor="#FFFFFF"
             android:layout_weight="1"
             android:text="katy@moodi.org"
             android:onClick="sendemail"
             android:textAlignment="center"/>
         <TextView
-             android:layout_height="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_width="wrap_content"
-            
+            android:textColor="#FFFFFF"
             android:layout_weight="1"
             android:text="shashank@moodi.org"
             android:onClick="sendemail"
@@ -393,20 +460,20 @@
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
-         android:layout_height="wrap_content"
+        android:layout_height="wrap_content"
         android:orientation="horizontal">
         <TextView
-             android:layout_height="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_width="wrap_content"
-            
+            android:textColor="#FFFFFF"
             android:layout_weight="1"
             android:text="+91-9029004596"
             android:onClick="call"
             android:textAlignment="center"/>
         <TextView
-             android:layout_height="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_width="wrap_content"
-            
+            android:textColor="#FFFFFF"
             android:layout_weight="1"
             android:text="+91-9969602862"
             android:onClick="call"
@@ -414,45 +481,51 @@
     </LinearLayout>
     <TextView
         android:layout_width="match_parent"
-         android:layout_height="wrap_content"
-        
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="6dp"
         android:textAlignment="center"
-        android:text="MARKETING" />
+        android:text="Marketing"
+        android:textColor="#d6d8eb"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
     <LinearLayout
         android:layout_width="match_parent"
-         android:layout_height="wrap_content"
+        android:layout_height="wrap_content"
         android:orientation="horizontal">
         <TextView
-             android:layout_height="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_width="wrap_content"
-            
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
             android:layout_weight="1"
             android:text="Chaitanya Jain"
             android:textAlignment="center"/>
         <TextView
-             android:layout_height="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_width="wrap_content"
-            
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
             android:layout_weight="1"
             android:text="Harsh Prasad"
             android:textAlignment="center"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
-         android:layout_height="wrap_content"
+        android:layout_height="wrap_content"
         android:orientation="horizontal">
         <TextView
-             android:layout_height="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_width="wrap_content"
-            
+            android:textColor="#FFFFFF"
             android:layout_weight="1"
             android:text="chaitanya@moodi.org"
             android:onClick="sendemail"
             android:textAlignment="center"/>
         <TextView
-             android:layout_height="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_width="wrap_content"
-            
+            android:textColor="#FFFFFF"
             android:layout_weight="1"
             android:text="harsh@moodi.org"
             android:onClick="sendemail"
@@ -460,20 +533,20 @@
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
-         android:layout_height="wrap_content"
+        android:layout_height="wrap_content"
         android:orientation="horizontal">
         <TextView
-             android:layout_height="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_width="wrap_content"
-            
+            android:textColor="#FFFFFF"
             android:layout_weight="1"
             android:text="+91-9167338233"
             android:onClick="call"
             android:textAlignment="center"/>
         <TextView
-             android:layout_height="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_width="wrap_content"
-            
+            android:textColor="#FFFFFF"
             android:layout_weight="1"
             android:text="+91-8879443797"
             android:onClick="call"
@@ -481,67 +554,77 @@
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
-         android:layout_height="wrap_content"
+        android:layout_height="wrap_content"
         android:orientation="vertical">
         <TextView
             android:layout_width="match_parent"
-             android:layout_height="wrap_content"
+            android:layout_height="wrap_content"
             android:text="Sanket Agrawal"
-            android:textAlignment="center"/>
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"/>
         <TextView
             android:layout_width="match_parent"
-             android:layout_height="wrap_content"
+            android:layout_height="wrap_content"
             android:text="sanket@moodi.org"
             android:onClick="sendemail"
-            android:textAlignment="center"/>
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"/>
         <TextView
             android:layout_width="match_parent"
-             android:layout_height="wrap_content"
+            android:layout_height="wrap_content"
             android:text="+91-7045800191"
+            android:textColor="#FFFFFF"
             android:onClick="call"
             android:textAlignment="center"/>
     </LinearLayout>
     <TextView
         android:layout_width="match_parent"
-         android:layout_height="wrap_content"
-        
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="6dp"
         android:textAlignment="center"
-        android:text="MEDIA &amp; PUBLICITY" />
+        android:text="Media &amp; Publicity"
+        android:textColor="#d6d8eb"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
     <LinearLayout
         android:layout_width="match_parent"
-         android:layout_height="wrap_content"
+        android:layout_height="wrap_content"
         android:orientation="horizontal">
         <TextView
-             android:layout_height="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_width="wrap_content"
-            
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
             android:layout_weight="1"
             android:text="Karan Trichal"
             android:textAlignment="center"/>
         <TextView
-             android:layout_height="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_width="wrap_content"
-            
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
             android:layout_weight="1"
             android:text="Kunal Jain"
             android:textAlignment="center"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
-         android:layout_height="wrap_content"
+        android:layout_height="wrap_content"
         android:orientation="horizontal">
         <TextView
-             android:layout_height="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_width="wrap_content"
-            
+            android:textColor="#FFFFFF"
             android:layout_weight="1"
             android:text="karan@moodi.org"
             android:onClick="sendemail"
             android:textAlignment="center"/>
         <TextView
-             android:layout_height="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_width="wrap_content"
-            
+            android:textColor="#FFFFFF"
             android:layout_weight="1"
             android:text="kunal@moodi.org"
             android:onClick="sendemail"
@@ -549,20 +632,20 @@
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
-         android:layout_height="wrap_content"
+        android:layout_height="wrap_content"
         android:orientation="horizontal">
         <TextView
-             android:layout_height="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_width="wrap_content"
-            
+            android:textColor="#FFFFFF"
             android:layout_weight="1"
             android:text="+91-9833895389"
             android:onClick="call"
             android:textAlignment="center"/>
         <TextView
-             android:layout_height="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_width="wrap_content"
-            
+            android:textColor="#FFFFFF"
             android:layout_weight="1"
             android:text="+91-9967553061"
             android:onClick="call"
@@ -570,45 +653,51 @@
     </LinearLayout>
     <TextView
         android:layout_width="match_parent"
-         android:layout_height="wrap_content"
-        
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="6dp"
         android:textAlignment="center"
-        android:text="PRONITES" />
+        android:text="Pronites"
+        android:textColor="#d6d8eb"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
     <LinearLayout
         android:layout_width="match_parent"
-         android:layout_height="wrap_content"
+        android:layout_height="wrap_content"
         android:orientation="horizontal">
         <TextView
-             android:layout_height="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_width="wrap_content"
-            
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
             android:layout_weight="1"
             android:text="Ayush Chouksey"
             android:textAlignment="center"/>
         <TextView
-             android:layout_height="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_width="wrap_content"
-            
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
             android:layout_weight="1"
             android:text="Nikhil Vaidya"
             android:textAlignment="center"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
-         android:layout_height="wrap_content"
+        android:layout_height="wrap_content"
         android:orientation="horizontal">
         <TextView
-             android:layout_height="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_width="wrap_content"
-            
+            android:textColor="#FFFFFF"
             android:layout_weight="1"
             android:text="ayush@moodi.org"
             android:onClick="sendemail"
             android:textAlignment="center"/>
         <TextView
-             android:layout_height="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_width="wrap_content"
-            
+            android:textColor="#FFFFFF"
             android:layout_weight="1"
             android:text="nikhil@moodi.org"
             android:onClick="sendemail"
@@ -616,20 +705,20 @@
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
-         android:layout_height="wrap_content"
+        android:layout_height="wrap_content"
         android:orientation="horizontal">
         <TextView
-             android:layout_height="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_width="wrap_content"
-            
+            android:textColor="#FFFFFF"
             android:layout_weight="1"
             android:text="+91-7045800477"
             android:onClick="call"
             android:textAlignment="center"/>
         <TextView
-             android:layout_height="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_width="wrap_content"
-            
+            android:textColor="#FFFFFF"
             android:layout_weight="1"
             android:text="+91-9004932980"
             android:onClick="call"
@@ -637,45 +726,51 @@
     </LinearLayout>
     <TextView
         android:layout_width="match_parent"
-         android:layout_height="wrap_content"
-        
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="6dp"
         android:textAlignment="center"
-        android:text="SERVICES" />
+        android:text="Services"
+        android:textColor="#d6d8eb"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
     <LinearLayout
         android:layout_width="match_parent"
-         android:layout_height="wrap_content"
+        android:layout_height="wrap_content"
         android:orientation="horizontal">
         <TextView
-             android:layout_height="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_width="wrap_content"
-            
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
             android:layout_weight="1"
             android:text="Mayank Gurjar"
             android:textAlignment="center"/>
         <TextView
-             android:layout_height="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_width="wrap_content"
-            
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
             android:layout_weight="1"
             android:text="Rohit Patidar"
             android:textAlignment="center"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
-         android:layout_height="wrap_content"
+        android:layout_height="wrap_content"
         android:orientation="horizontal">
         <TextView
-             android:layout_height="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_width="wrap_content"
-            
+            android:textColor="#FFFFFF"
             android:layout_weight="1"
             android:text="mayank@moodi.org"
             android:onClick="sendemail"
             android:textAlignment="center"/>
         <TextView
-             android:layout_height="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_width="wrap_content"
-            
+            android:textColor="#FFFFFF"
             android:layout_weight="1"
             android:text="rohit@moodi.org"
             android:onClick="sendemail"
@@ -683,20 +778,20 @@
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
-         android:layout_height="wrap_content"
+        android:layout_height="wrap_content"
         android:orientation="horizontal">
         <TextView
-             android:layout_height="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_width="wrap_content"
-            
+            android:textColor="#FFFFFF"
             android:layout_weight="1"
             android:text="+91-8879249203"
             android:onClick="call"
             android:textAlignment="center"/>
         <TextView
-             android:layout_height="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_width="wrap_content"
-            
+            android:textColor="#FFFFFF"
             android:layout_weight="1"
             android:text="+91-9004685969"
             android:onClick="call"
@@ -704,45 +799,51 @@
     </LinearLayout>
     <TextView
         android:layout_width="match_parent"
-         android:layout_height="wrap_content"
-        
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="6dp"
         android:textAlignment="center"
-        android:text="OVERALL CO-ORDINATORS" />
+        android:text="Overall Co-ordinatirs"
+        android:textColor="#d6d8eb"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
     <LinearLayout
         android:layout_width="match_parent"
-         android:layout_height="wrap_content"
+        android:layout_height="wrap_content"
         android:orientation="horizontal">
         <TextView
-             android:layout_height="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_width="wrap_content"
-            
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
             android:layout_weight="1"
             android:text="Amiya Maitreya"
             android:textAlignment="center"/>
         <TextView
-             android:layout_height="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_width="wrap_content"
-            
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
             android:layout_weight="1"
             android:text="Anmol Rawat"
             android:textAlignment="center"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
-         android:layout_height="wrap_content"
+        android:layout_height="wrap_content"
         android:orientation="horizontal">
         <TextView
-             android:layout_height="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_width="wrap_content"
-            
+            android:textColor="#FFFFFF"
             android:layout_weight="1"
             android:text="amiya@moodi.org"
             android:onClick="sendemail"
             android:textAlignment="center"/>
         <TextView
-             android:layout_height="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_width="wrap_content"
-            
+            android:textColor="#FFFFFF"
             android:layout_weight="1"
             android:text="anmol.r@moodi.org"
             android:onClick="sendemail"
@@ -751,4 +852,6 @@
 
 
 
+
 </LinearLayout>
+    </ScrollView>
